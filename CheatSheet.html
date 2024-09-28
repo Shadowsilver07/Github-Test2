@@ -3,18 +3,20 @@
 # Start
 git init
 git status
+
+#This command used to display the commit history of a Git repository. It shows a list of commits along with important information
 git log
 
-# Add 
+# Add to the Staging Area
 git add <file1>
 git add .
 
-# Commit
+# Commit/Push to Git repository
 git commit -m "Your Text"
 
 
 
-# Where you git init is the working directory[Local Respository]
+# Where you git init is the working directory
 # Staging Area - If you do not want all your files to be tracked or commited - things you like to ignore and track
 # If you want to revert the commit back from Git repository to Working Directory 
 git checkout <file1>
@@ -22,7 +24,7 @@ git checkout <file1>
 #To discard changes in working directory
 git restore <file>
 
-
+# Git Repository is the Local Respository
 |Working Directory| > git add > |Staging Area| > git commit > |Git Repository| > git check out > 
 
 # To revert the changes if file was modified and saved 
