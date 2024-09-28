@@ -1,18 +1,35 @@
+<!-- Version Control Using Git and  the Command Line -->
+
+# Start
 git init
 git status
 git log
 
+# Add 
 git add <file1>
 git add .
 
-
+# Commit
 git commit -m "Your Text"
+
 
 
 # Where you git init is the working directory[Local Respository]
 # Staging Area - If you do not want all your files to be tracked or commited - things you like to ignore and track
-# If you want to revert the commit back to Working Directory - git checkout
+# If you want to revert the commit back from Git repository to Working Directory 
+git checkout <file1>
+
+#To discard changes in working directory
+git restore <file>
+
 
 |Working Directory| > git add > |Staging Area| > git commit > |Git Repository| > git check out > 
 
-git diff
+# To revert the changes if file was modified and saved 
+git status
+
+# See the difference of the changes you made
+git diff <file1>
+
+
+    
